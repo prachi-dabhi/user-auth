@@ -1,12 +1,23 @@
-# React + Vite
+React.js, Node.js, and MongoDB Authentication System
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+- Project Overview
+  This project is a role-based authentication system using React.js (frontend), Node.js (backend), and MySQL (database). It includes:
 
-Currently, two official plugins are available:
+  1.Customer and Admin Registration
+  2.Email Verification
+  3.Role-Based Authentication
+  4.Admin Login Page (Only admins can log in)
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+-Features
+  Customer Registration (Assigned "customer" role)
+  Admin Registration (Assigned "admin" role)
+  Email Verification for both roles
+  Admin Login (Customers cannot log in from the admin page)
 
-## Expanding the ESLint configuration
 
-If you are developing a production application, we recommend using TypeScript and enable type-aware lint rules. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+  Error Handling (Unauthorized users will see an error message)
+
+Tech Stack
+Frontend: React.js (Vite)
+Backend: Node.js
+Database: Mongo DB
