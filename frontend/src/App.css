@@ -105,10 +105,36 @@ body {
 }
 
 
-.error {
+.login-container-wrapper .error {
   color: red;
   font-size: 12px;
   margin-bottom: 10px;
   font-weight: semibold;
   text-align: left;
 }
+
+
+.success-toast {
+    background-color: white;
+    font-family: "Open Sans", sans-serif;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 20px;
+    color: green !important;
+    border: 1px solid green;
+    padding: 10px;
+    border-radius: 5px;
+}
+
+.error-toast {
+    background-color: white;
+    font-family: "Open Sans", sans-serif;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 20px;
+    color: red !important;
+    border: 1px solid red;
+    padding: 10px;
+    border-radius: 5px;
+}
+
